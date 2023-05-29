@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Full Page Reset",
+    "version": "1.0",
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "permissions": [
+        "activeTab",
+        "browsingData",
+        "scripting"
+    ],
+    "icons": {
+        "16": "assets/full-page-reset-16.png",
+        "32": "assets/full-page-reset-32.png",
+        "48": "assets/full-page-reset-48.png",
+        "128": "assets/full-page-reset-128.png"
+      }
+}
